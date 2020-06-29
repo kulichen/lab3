@@ -178,7 +178,7 @@ QVector<int> Helper::newGame(int lvl) {
 
 QVector<int> Helper::startGame(int lvl) {
 
-    QMap<int, QVector<int>> config = finalconfig;
+    QMap<int, QVector<int> > config = finalconfig;
 
     QVector<int> start = config[lvl];
 
