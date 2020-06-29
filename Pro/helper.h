@@ -11,8 +11,8 @@ class Helper : public QObject
     Q_OBJECT
 public:
     explicit Helper(QObject *parent = nullptr);
-    QMap<int, QVector<int>> finalconfig;
-    QMap<int, QVector<int>> startconfig;
+    QMap<int, QVector<int> > finalconfig;
+    QMap<int, QVector<int> > startconfig;
 
 signals:
 
