@@ -11,7 +11,7 @@ TEST(checkWin, lvl_win) {
 }
 
 
-TEST(checkWin, lvl_lose) {
+TEST(checkWin, lvl_lose1) {
     Helper helper;
 
     QVector<int> lose_config;
@@ -27,7 +27,7 @@ TEST(checkWin, lvl_lose) {
 
 
 
-TEST(checkWin, lvl_lose) {
+TEST(checkWin, lvl_lose2) {
     Helper helper;
 
     QVector<int> lose_config;
