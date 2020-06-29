@@ -9,7 +9,7 @@ CONFIG -= app_bundle
 # any Qt feature that has been marked deprecated (the exact warnings
 # depend on your compiler). Refer to the documentation for the
 # deprecated API to know how to port your code away from it.
-DEFINES += QT_DEPRECATED_WARNINGS
+//DEFINES += QT_DEPRECATED_WARNINGS
 
 # You can also make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -29,9 +29,9 @@ QML_IMPORT_PATH =
 QML_DESIGNER_IMPORT_PATH =
 
 # Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target
+//qnx: target.path = /tmp/$${TARGET}/bin
+//else: unix:!android: target.path = /opt/$${TARGET}/bin
+//!isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
     helper.h
